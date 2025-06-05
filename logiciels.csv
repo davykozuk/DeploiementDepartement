@@ -1,0 +1,38 @@
+Categorie,Nom,Id
+Navigateurs,Chrome,Google.Chrome
+Navigateurs,Firefox,Mozilla.Firefox.fr
+Navigateurs,Opera,XP8CF6S8G2D5T6
+Navigateurs,OperaGX,XPDBZ4MPRKNN30
+Navigateurs,Edge,Microsoft.Edge
+Navigateurs,Brave,XP8C9QZMS2PC1T
+Messagerie,ZOOM,XP99J3KP4XZ4VV
+Messagerie,DISCORD,Discord.Discord
+Messagerie,TEAMS,Microsoft.Teams
+Messagerie,Thunderbird,Mozilla.Thunderbird.fr
+Messagerie,Outlook (seul),9NRX63209R7B
+Messagerie,Gmail APP,timche.gmail-desktop
+Cloud,Dropbox,Dropbox.Dropbox
+Cloud,Google-Drive-Desktop,Google.GoogleDrive
+Cloud,OneDrive,Microsoft.OneDrive
+Media,ITunes,Apple.iTunes
+Media,VLC,VideoLAN.VLC
+Media,AUDACITY,Audacity.Audacity
+Media,SPOTIFY,Spotify.Spotify
+Images,Blender,BlenderFoundation.Blender
+Images,GIMP,9PNSJCLXDZ0V
+Images,XnVIEW,XnSoft.XnView.Classic
+Images,Greenshot,Greenshot.Greenshot
+Compress,7Zip,7zip.7zip
+Compress,WinRAR,RARLab.WinRAR
+Documents,ADOBE-READER-DC,XPDP273C0XHQH2
+Documents,FOXIT-READER,XPFCG5NRKXQPKT
+Documents,FOXIT-EDITOR,XPDNZD76FP5JR7
+Documents,Open Office,Apache.OpenOffice
+Documents,Libre OFFICE,TheDocumentFoundation.LibreOffice
+Utilitaires,AnyDESK,AnyDesk.AnyDesk
+Utilitaires,TEAMVIEWER,TeamViewer.TeamViewer
+Utilitaires,TEAMVIEWRE-HOST,TeamViewer.TeamViewer.Host
+Utilitaires,KEEPASS,DominikReichl.KeePass
+Utilitaires,Putty,PuTTY.PuTTY
+Utilitaires,WinSCP,WinSCP.WinSCP
+Utilitaires,Notepad++,Notepad++.Notepad++
