@@ -1,0 +1,240 @@
+# Fichier de configuration JSON - logiciels_inforsud.json
+
+Créez ce fichier dans le même dossier que le script PowerShell :
+
+```json
+{
+    "metadata": {
+        "version": "1.0",
+        "description": "Configuration logiciels INFORSUD Technologies",
+        "last_updated": "2025-06-09 10:00:00"
+    },
+    "categories": {
+        "Navigateurs": [
+            {
+                "nom": "Chrome",
+                "id": "Google.Chrome",
+                "description": "Navigateur web Google Chrome",
+                "priority": 1
+            },
+            {
+                "nom": "Firefox",
+                "id": "Mozilla.Firefox.fr",
+                "description": "Navigateur Mozilla Firefox",
+                "priority": 2
+            },
+            {
+                "nom": "Edge",
+                "id": "Microsoft.Edge",
+                "description": "Navigateur Microsoft Edge",
+                "priority": 3
+            },
+            {
+                "nom": "Opera",
+                "id": "XP8CF6S8G2D5T6",
+                "description": "Navigateur Opera",
+                "priority": 4
+            },
+            {
+                "nom": "Brave",
+                "id": "XP8C9QZMS2PC1T",
+                "description": "Navigateur Brave",
+                "priority": 5
+            }
+        ],
+        "Messagerie": [
+            {
+                "nom": "Teams",
+                "id": "Microsoft.Teams",
+                "description": "Microsoft Teams",
+                "priority": 1
+            },
+            {
+                "nom": "Zoom",
+                "id": "XP99J3KP4XZ4VV",
+                "description": "Zoom Video Communications",
+                "priority": 2
+            },
+            {
+                "nom": "Discord",
+                "id": "Discord.Discord",
+                "description": "Discord",
+                "priority": 3
+            },
+            {
+                "nom": "Thunderbird",
+                "id": "Mozilla.Thunderbird.fr",
+                "description": "Client email Mozilla",
+                "priority": 4
+            },
+            {
+                "nom": "Outlook",
+                "id": "9NRX63209R7B",
+                "description": "Microsoft Outlook",
+                "priority": 5
+            }
+        ],
+        "Cloud": [
+            {
+                "nom": "OneDrive",
+                "id": "Microsoft.OneDrive",
+                "description": "Stockage cloud Microsoft",
+                "priority": 1
+            },
+            {
+                "nom": "Google Drive",
+                "id": "Google.GoogleDrive",
+                "description": "Stockage cloud Google",
+                "priority": 2
+            },
+            {
+                "nom": "Dropbox",
+                "id": "Dropbox.Dropbox",
+                "description": "Stockage cloud Dropbox",
+                "priority": 3
+            }
+        ],
+        "Media": [
+            {
+                "nom": "VLC",
+                "id": "VideoLAN.VLC",
+                "description": "Lecteur multimédia VLC",
+                "priority": 1
+            },
+            {
+                "nom": "Spotify",
+                "id": "Spotify.Spotify",
+                "description": "Streaming musical",
+                "priority": 2
+            },
+            {
+                "nom": "iTunes",
+                "id": "Apple.iTunes",
+                "description": "Lecteur Apple iTunes",
+                "priority": 3
+            },
+            {
+                "nom": "Audacity",
+                "id": "Audacity.Audacity",
+                "description": "Éditeur audio",
+                "priority": 4
+            }
+        ],
+        "Images": [
+            {
+                "nom": "GIMP",
+                "id": "9PNSJCLXDZ0V",
+                "description": "Éditeur d'images GIMP",
+                "priority": 1
+            },
+            {
+                "nom": "XnView",
+                "id": "XnSoft.XnView.Classic",
+                "description": "Visionneuse d'images XnView",
+                "priority": 2
+            },
+            {
+                "nom": "Greenshot",
+                "id": "Greenshot.Greenshot",
+                "description": "Outil de capture d'écran",
+                "priority": 3
+            },
+            {
+                "nom": "Blender",
+                "id": "BlenderFoundation.Blender",
+                "description": "Création 3D Blender",
+                "priority": 4
+            }
+        ],
+        "Documents": [
+            {
+                "nom": "Adobe Reader DC",
+                "id": "XPDP273C0XHQH2",
+                "description": "Lecteur PDF Adobe",
+                "priority": 1
+            },
+            {
+                "nom": "LibreOffice",
+                "id": "TheDocumentFoundation.LibreOffice",
+                "description": "Suite bureautique libre",
+                "priority": 2
+            },
+            {
+                "nom": "OpenOffice",
+                "id": "Apache.OpenOffice",
+                "description": "Suite bureautique Apache",
+                "priority": 3
+            },
+            {
+                "nom": "Foxit Reader",
+                "id": "XPFCG5NRKXQPKT",
+                "description": "Lecteur PDF Foxit",
+                "priority": 4
+            },
+            {
+                "nom": "Foxit Editor",
+                "id": "XPDNZD76FP5JR7",
+                "description": "Éditeur PDF Foxit",
+                "priority": 5
+            }
+        ],
+        "Compression": [
+            {
+                "nom": "7-Zip",
+                "id": "7zip.7zip",
+                "description": "Gestionnaire d'archives 7-Zip",
+                "priority": 1
+            },
+            {
+                "nom": "WinRAR",
+                "id": "RARLab.WinRAR",
+                "description": "Gestionnaire d'archives WinRAR",
+                "priority": 2
+            }
+        ],
+        "Utilitaires": [
+            {
+                "nom": "Notepad++",
+                "id": "Notepad++.Notepad++",
+                "description": "Éditeur de texte avancé",
+                "priority": 1
+            },
+            {
+                "nom": "TeamViewer",
+                "id": "TeamViewer.TeamViewer",
+                "description": "Accès distant TeamViewer",
+                "priority": 2
+            },
+            {
+                "nom": "TeamViewer Host",
+                "id": "TeamViewer.TeamViewer.Host",
+                "description": "TeamViewer Host",
+                "priority": 3
+            },
+            {
+                "nom": "AnyDesk",
+                "id": "AnyDesk.AnyDesk",
+                "description": "Bureau à distance AnyDesk",
+                "priority": 4
+            },
+            {
+                "nom": "KeePass",
+                "id": "DominikReichl.KeePass",
+                "description": "Gestionnaire de mots de passe",
+                "priority": 5
+            },
+            {
+                "nom": "PuTTY",
+                "id": "PuTTY.PuTTY",
+                "description": "Client SSH/Telnet",
+                "priority": 6
+            },
+            {
+                "nom": "WinSCP",
+                "id": "WinSCP.WinSCP",
+                "description": "Client SFTP/SCP",
+                "priority": 7
+            }
+        ]
+    }
+}
